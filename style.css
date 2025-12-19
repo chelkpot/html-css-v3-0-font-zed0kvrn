@@ -1,0 +1,66 @@
+/* 1. Установка семейства шрифта для всей страницы */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* 9. Выравнивание текста по центру */
+.main-title {
+    text-align: center;
+}
+
+/* 2. Курсивное и наклонное начертание */
+.italic-text {
+    font-style: italic;
+}
+
+/* 3. Вариант малых заглавных букв */
+.small-caps {
+    font-variant: small-caps;
+}
+
+/* 4. Жирный текст */
+.bold-text {
+    font-weight: bold;
+}
+
+/* 5. Настройка размера шрифта */
+.custom-size {
+    font-size: 24px;
+}
+
+/* 6. Изменение внешнего вида при наведении */
+.hover-effect:hover {
+    color: #ff4500;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+/* 7. Подчёркивание текста */
+.underline-text {
+    text-decoration: underline;
+}
+
+/* 8. Убираем подчёркивание у ссылки */
+.no-underline {
+    text-decoration: none;
+    color: blue;
+}
+
+/* 10. Отступ первой строки и выравнивание */
+.indent-text {
+    text-indent: 40px;
+    text-align: center;
+}
+
+/* 11. Преобразование регистра */
+.cap {
+    text-transform: capitalize;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}

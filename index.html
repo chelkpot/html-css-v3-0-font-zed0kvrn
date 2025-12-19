@@ -1,22 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    
-    <title>Работа со шрифтами</title>
+    <meta charset="UTF-8">
+    <title>Работа со шрифтами и текстом</title>
+    <!-- Подключаем внешний файл стилей -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Изучаем свойства текста и шрифтов</h1>
 
-    <p>
-        Это пример текста, в котором вы должны применить свойства CSS:
-        font-family, font-style, font-variant, font-weight, font-size,
-        text-decoration, text-align, text-indent и text-transform.
+    <h1 class="main-title">Заголовок страницы (Шрифт и Выравнивание)</h1>
+
+    <p class="italic-text">Этот текст написан курсивом.</p>
+    
+    <p class="small-caps">Этот текст использует малые заглавные буквы (Small Caps).</p>
+    
+    <p class="bold-text">Этот текст очень жирный.</p>
+    
+    <p class="custom-size">Этот текст имеет увеличенный размер шрифта.</p>
+    
+    <p class="hover-effect">Наведи на меня курсор, чтобы изменить мой вид!</p>
+    
+    <p class="underline-text">Этот текст подчеркнут.</p>
+    
+    <p><a href="#" class="no-underline">Ссылка без подчеркивания</a></p>
+    
+    <p class="indent-text">
+        Этот абзац имеет отступ первой строки (красная строка). 
+        Текст в этом абзаце выровнен по центру, чтобы продемонстрировать навыки верстки.
     </p>
 
-    <p> 
-        При наведении курсора на этот текст, он должен изменится.
-    </p>
+    <div class="case-demo">
+        <p class="cap">каждое слово с заглавной (capitalize)</p>
+        <p class="upper">только большие буквы (uppercase)</p>
+        <p class="lower">ТОЛЬКО МАЛЕНЬКИЕ БУКВЫ (lowercase)</p>
+    </div>
 
-    <a href="#">Эту ссылку нужно сделать без подчеркивания</a>
 </body>
 </html>
